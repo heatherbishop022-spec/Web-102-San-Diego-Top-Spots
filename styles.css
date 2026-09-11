@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background-image: url("images/pexels-kindelmedia-8980254.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    border: 3px solid black;
+    padding: 20px;
+    margin: 30px auto;
+    width: 40%;
+    color: white;
+    background-color: rgba(55, 18, 90, 0.6);
+}
+
+.banner-image {
+    display: block;
+    width: 80%;
+    height: 100px;
+    object-fit: cover;
+    margin: 30px auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.95);
+}
+
+td {
+    font-size: 16px;
+}
+
+footer {
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+}
